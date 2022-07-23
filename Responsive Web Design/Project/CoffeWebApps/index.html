@@ -1,46 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cafe Menu</title>
-</head>
-<body>
- <div class="menu">
-    <header>
+  </head>
+  <body>
+    <!-- Agar Body ada Width-nya -->
+    <div class="menu">
+      <!-- Header -->
+      <header>
         <h1>CAMPER CAFE</h1>
-        <p>Est. 2020</p>
-    </header>
-    <main>
+        <p class="established">Est. 2020</p>
+      </header>
+      <hr>
+      <!-- Body -->
+      <main>
+        <!-- Konten Coffee -->
         <section>
-            <h2>Coffee</h2>
+          <h2>Coffee</h2>
+          <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon" srcset="">
+          <article class="item">
+            <p class="flavor">French Vanilla</p><p class="price">3.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+          </article>
+          <article class="item">
+            <p class="flavor">Mocha</p><p class="price">4.50</p>
+          </article>
+        </section>
+        <!-- Konten Desserts -->
+        <section>
+            <h2>Desserts</h2>
+            <img src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon" srcset="">
             <article class="item">
-                <p class="flavor">French Vanilla</p><p class="price">3.00</p>
-                
+                <p class="dessert">Donut</p><p class="price">1.50</p>
             </article>
             <article class="item">
-                <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
-                
+                <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
             </article>
             <article class="item">
-                <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
-                
+                <p class="dessert">Cheesecake</p><p class="price">3.00</p>
             </article>
             <article class="item">
-                <p class="flavor">Hazelnut</p><p class="price">4.00</p>
-                
-            </article>
-            <article class="item">
-                <p class="flavor">Mocha</p><p class="price">4.50</p>
-                
+                <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
             </article>
         </section>
-        <section>
-           
-        </section>
-    </main>
- </div>
-</body>
+      </main>
+      <hr class="bottom-line">
+      <!-- Footer -->
+      <footer>
+        <p ><a href="https://www.freecodecamp.org">Visit our Website</a></p>
+        <p class="address">123 Free Code Camp Drive</p>
+      </footer>
+    </div>
+  </body>
 </html>
